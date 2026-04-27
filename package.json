@@ -1,0 +1,19 @@
+{
+  "name": "botzap",
+  "version": "1.0.0",
+  "description": "Robô de atendimento WhatsApp - TONOFF",
+  "main": "server-multi.js",
+  "scripts": {
+    "start": "node server-multi.js",
+    "dev": "node --watch server-multi.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "ioredis": "^5.4.1",
+    "pg": "^8.13.0",
+    "undici": "^6.20.0"
+  }
+}
